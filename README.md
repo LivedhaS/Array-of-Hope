@@ -1,8 +1,6 @@
 # Array-of-Hope
 
----
 
-### **README.md**
 
 # Team Members Management App
 

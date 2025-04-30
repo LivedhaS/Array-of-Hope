@@ -1,0 +1,85 @@
+/* Styling for View Members Page */
+.view-container {
+  padding: 30px;
+  background-color: #f9f9f9;
+}
+
+.view-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #6a1b9a;
+  margin-bottom: 20px;
+}
+
+/* Styling for the list of member cards */
+.members-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Styling for each member card */
+.member-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+.member-card:hover {
+  transform: translateY(-10px);  /* Add hover effect */
+}
+
+/* Styling for member image */
+.member-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* Member info styling */
+.member-info {
+  color: #333;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+/* Styling for View Details button */
+.view-details-btn {
+  padding: 8px 16px;
+  background-color: #6a1b9a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.view-details-btn:hover {
+  background-color: #4a148c;
+}
+
+/* Styling for Back to Home button */
+.back-btn {
+  padding: 10px 20px;
+  background-color: #6a1b9a;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.back-btn:hover {
+  background-color: #4a148c;
+}

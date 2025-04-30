@@ -1,0 +1,76 @@
+.add-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #f3e5f5;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(106, 27, 154, 0.2);
+  }
+  
+  .form-title {
+    text-align: center;
+    color: #6a1b9a;
+    font-size: 2rem;
+    margin-bottom: 25px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    color: #4a148c;
+    font-weight: 600;
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 20px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #b39ddb;
+    background-color: #fff;
+    font-size: 1rem;
+    outline-color: #9575cd;
+  }
+  
+  .submit-btn {
+    padding: 12px;
+    background-color: #9575cd;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #7e57c2;
+  }
+  
+ /* Existing styling for the form, submit button, etc. */
+
+/* Style the Back to Home button */
+.back-btn {
+  padding: 5px 10px; /* Smaller padding for a compact button */
+  background-color: #6a1b9a; /* Lavender color */
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem; /* Smaller font size */
+  width: auto;  /* Adjust width to fit the text */
+  text-align: center;  /* Center the text */
+  margin-top: 20px; /* Add space above */
+  display: block; /* Makes the button block-level */
+  margin-left: auto;  /* Automatically adjust margin to center */
+  margin-right: auto; /* Center horizontally */
+}
+
+/* Optional: Add hover effect */
+.back-btn:hover {
+  background-color: #4a148c; /* Darker lavender on hover */
+}

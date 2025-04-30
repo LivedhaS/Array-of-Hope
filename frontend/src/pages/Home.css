@@ -1,0 +1,65 @@
+/* src/pages/Home.css */
+@keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f3e5f5 0%, #e1bee7 100%);
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  .home-content {
+    background: white;
+    padding: 50px 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: fadeInUp 1.2s ease-in-out;
+  }
+  
+  .home-title {
+    font-size: 3rem;
+    color: #6a1b9a; /* Deep lavender/purple */
+    margin-bottom: 10px;
+  }
+  
+  .home-subtitle {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .home-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .home-button {
+    padding: 12px 28px;
+    font-size: 1rem;
+    background-color: #9575cd; /* Light lavender */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .home-button:hover {
+    background-color: #7e57c2; /* Slightly deeper on hover */
+    transform: scale(1.05);
+  }
+  

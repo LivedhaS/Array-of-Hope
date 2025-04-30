@@ -93,7 +93,7 @@ Make sure MongoDB is running on your local machine or a remote server. If you're
 mongod
 ```
 
----
+
 
 ## **Endpoints**
 
@@ -153,7 +153,7 @@ mongod
   }
   ```
 
----
+
 
 ## **Conclusion**
 
